@@ -33,4 +33,7 @@ Client foler  :
 
 ## Authors
 
-* **Long Tran** 
+* **Long Tran**
+
+## Demo Image
+![Demo Image](https://github.com/longthb3112/AIChatApp/blob/main/ChatApp.PNG)
