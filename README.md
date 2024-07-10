@@ -1,2 +1,36 @@
 # AIChatApp
-A demo for using OpenAI to create chat app with history
+
+A demo for using OpenAI to create chat app with history.
+
+## Getting Started
+
+This project is built in both server side and front end side. These instructions will get you a copy of the project up and running on your local machine for development
+
+### Prerequisites
+
+* Node v22.2.0
+* OpenAI v4.37.1
+* React 18.3.1
+```
+
+### Installing
+
+Server 
+* npm i
+* add .env file in server folder for Global variables: PORT = 8888 and OPENAI_API_KEY: YOUR_OPENAI_KEY 
+ 
+Client foler  : 
+* npm i
+* If you want to call OPENAPI directly => update API_KEY variable in App.jsx file.
+* npm start
+```
+
+## Built With
+
+* [Node](https://nodejs.org/en/download/package-manager) - The server framework used
+* [npm](https://www.npmjs.com) - Dependency Management
+* [React](https://react.dev/) - The web framework used  
+
+## Authors
+
+* **Long Tran** 
