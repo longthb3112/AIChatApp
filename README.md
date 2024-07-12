@@ -11,7 +11,7 @@ This project is built in both server side and front end side. These instructions
 * Node v22.2.0
 * OpenAI v4.37.1
 * React 18.3.1
-* langchain 0.0.28
+* Langchain 0.0.28
 ```
 
 ### Installing
