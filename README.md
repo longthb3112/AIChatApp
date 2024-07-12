@@ -1,6 +1,8 @@
 # AIChatApp
 
-A demo for using OpenAI to create chat app with history.
+A demo for using OpenAI to create chat app with history. This project contains features: 
+* Communicate directly with OpenAI LLM
+* Conversational RAG using Langchain: comunicate with chat app using external source 
 
 ## Getting Started
 
