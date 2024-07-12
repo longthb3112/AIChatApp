@@ -11,6 +11,7 @@ This project is built in both server side and front end side. These instructions
 * Node v22.2.0
 * OpenAI v4.37.1
 * React 18.3.1
+* langchain 0.0.28
 ```
 
 ### Installing
@@ -28,9 +29,10 @@ Client folder  :
 
 ## Built With
 
-* [Node](https://nodejs.org/en/download/package-manager) - The server framework used
+* [Node](https://nodejs.org/en/download/package-manager) - Server framework
 * [npm](https://www.npmjs.com) - Dependency Management
-* [React](https://react.dev/) - The web framework used  
+* [React](https://react.dev/) - Web framework
+* [Langchain](https://www.langchain.com/) - RAG framework
 
 ## Authors
 
