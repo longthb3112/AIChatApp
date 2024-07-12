@@ -15,11 +15,12 @@ This project is built in both server side and front end side. These instructions
 
 ### Installing
 
-Server 
+Server folder :
 * npm i
-* add .env file in server folder for Global variables: PORT = 8888 and OPENAI_API_KEY: YOUR_OPENAI_KEY 
+* add .env file in server folder for Global variables: PORT = 8888 and OPENAI_API_KEY: YOUR_OPENAI_KEY
+* npm run dev
  
-Client foler  : 
+Client folder  : 
 * npm i
 * If you want to call OPENAPI directly => update API_KEY variable in App.jsx file.
 * npm start
