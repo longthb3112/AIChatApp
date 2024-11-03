@@ -10,16 +10,21 @@
     },
     {
       "route": "/",
-      "allowedRoles": ["authenticated","Reader"]
+      "allowedRoles": [
+        "authenticated",
+        "Reader",
+        "contributer"
+      ]
     }
   ],
- "auth": {
+  "auth": {
     "roles": [
       {
         "name": "Reader",
-        "users": ["lhtran@aiscaregroup.com"]
+        "users": [
+          "lhtran@aiscaregroup.com"
+        ]
       }
     ]
   }
 }
-
