@@ -10,18 +10,16 @@
     },
     {
       "route": "/",
-      "allowedRoles": ["authenticated"]
+      "allowedRoles": ["authenticated","Reader"]
     }
   ],
-  "auth": {
-    "identityProviders": {
-      "azureActiveDirectory": {
-        "registration": {
-          "openIdIssuer": "https://login.microsoftonline.com/{tenantId}/v2.0",
-          "clientIdSettingName": "AAD_CLIENT_ID",
-          "clientSecretSettingName": "AAD_CLIENT_SECRET"
-        }
+ "auth": {
+    "roles": [
+      {
+        "name": "Reader",
+        "users": ["lhtran@aiscaregroup.com"]  // User's email for role assignment
       }
-    }
+    ]
   }
 }
+
