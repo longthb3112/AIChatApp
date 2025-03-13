@@ -28,7 +28,10 @@ Client folder  :
 * If you want to call OPENAPI directly => update API_KEY variable in App.jsx file.
 * npm start
 ```
-
+### Dataset
+* Current example is using data from restaurant.txt to generate dataset
+* Feel free to update indexes.js with files to generate new dataset and have more experiments.
+  
 ## Built With
 
 * [Node](https://nodejs.org/en/download/package-manager) - Server framework
