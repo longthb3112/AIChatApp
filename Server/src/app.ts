@@ -15,7 +15,7 @@ console.log(process.env.PORT);
 // Middleware to parse JSON requests
 app.use(express.json());
 app.use(cors({
-    origin: 'http://localhost:9000',
+     origin: '*', //Allow all hosts
     methods: ['GET', 'POST'], // Allow only GET and POST requests
     allowedHeaders: ['Content-Type'],
   }));
