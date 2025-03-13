@@ -89,9 +89,10 @@ export async function Send(chatMessages:ChatMessage[]) {
         };
 
         //Chain with chat history
-        const qaSystemPrompt = `You are an assistant for question-answering tasks.
-        Use the following pieces of retrieved context and based only on the following context to answer the question.
-        Do not answer outside of the context.
+        const qaSystemPrompt = `You are an assistant specialized in answering questions using retrieved information.
+        Utilize the provided context to answer the question, ensuring that your response is based solely on the given information.
+        If the answer is not explicitly stated, infer logically from the available data while maintaining accuracy.
+        Do not introduce information that is not supported by the retrieved context.
         If you don't know the answer, just say that you don't know.
         Use three sentences maximum and keep the answer concise.
 
