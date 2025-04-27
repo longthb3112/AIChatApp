@@ -1,6 +1,6 @@
 
 import { OpenAIEmbeddings, ChatOpenAI } from "@langchain/openai";
-import {HumanMessage, AIMessage } from 'langchain/schema';
+import { HumanMessage, AIMessage } from "@langchain/core/messages";
 
 import {
   RunnableSequence,
